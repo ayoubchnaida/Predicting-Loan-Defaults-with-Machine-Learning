@@ -2,8 +2,6 @@ import streamlit as st
 import pickle
 import pandas as pd
 import sklearn
-from sklearn.ensemble import GradientBoostingClassifier
-pip install scikit-learn
 # Load the trained model
 model = pickle.load(open('loan.sav', 'rb'))
 # Streamlit web app
