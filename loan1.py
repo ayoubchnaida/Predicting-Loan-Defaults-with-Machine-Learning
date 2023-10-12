@@ -3,6 +3,7 @@ import pickle
 import pandas as pd
 import sklearn
 from xgboost import XGBClassifier
+pip install scikit-learn
 # Load the trained model
 model = pickle.load(open('loan.sav', 'rb'))
 # Streamlit web app
