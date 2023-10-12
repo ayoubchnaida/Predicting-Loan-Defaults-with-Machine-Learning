@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import pandas as pd
+from xgboost import XGBClassifier
 # Load the trained model
 model = pickle.load(open('loan.sav', 'rb'))
 # Streamlit web app
